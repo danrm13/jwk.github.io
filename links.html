@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+<script src="jquery-3.6.0.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="journeystyle.css">
+
+<link rel="stylesheet" type="text/css" href="logostyle.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <div class="header-img"></div>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="fitness.html">Fitness</a>
+    <a href="nutrition.html">Nutrition</a>
+    <a href="links.html">Useful Links</a>
+    <a href="social.html">Social</a>
+    <a href="contact.html">Contact me!</a>
+    <a href="javascript:void();" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <h1>Useful Links</h1>
+  <p>
+    Check out my <a href="https://mysite.coach.teambeachbody.com/?coachId=2632602&locale=en_US">Beachbody Coach Page </a>
+    and get even more information on some of what I do and some of the amazing products and programs I use!<br/><br/>
+
+    Looking for tips, tricks, and how-to's? Here's my <a href="https://youtube.com/channel/UCNlNNTIddR_SCTiJQ3Hn5fA">YouTube</a>
+    channel!
+
+    <!--
+    For my <a href="junkies.html">Journey Junkies!</a>
+    -->
+  </p>
+
+  <h2>
+    Here are some helpful guides to my most common questions!
+  </h2>
+
+  <div class="videos">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3Ngl6_lriUo"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="credit">
+    &copy;2022 Website built by Daniel Montaño
+  </div>
+  
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+      }
+  }
+  </script>
+
+</body>

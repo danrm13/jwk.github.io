@@ -1,0 +1,8 @@
+.header-img {
+    background-image: url(logos/logo.png);
+    background-size: contain;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border-radius: 12px;
+}

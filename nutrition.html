@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+<script src="jquery-3.6.0.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="journeystyle.css">
+
+<link rel="stylesheet" type="text/css" href="logostyle.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <div class="header-img"></div>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="fitness.html">Fitness</a>
+    <a href="nutrition.html">Nutrition</a>
+    <a href="links.html">Useful Links</a>
+    <a href="social.html">Social</a>
+    <a href="contact.html">Contact me!</a>
+    <a href="javascript:void();" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <h1>Let's Eat!</h1>
+
+  <p>From gut issues to just learning how to eat healthier without crazy cravings or feeling 
+    deprived of your favorite foods, I can help you build a plan that works for YOU!</p>
+
+  <h2>Why is nutrition so important?</h2>
+
+  <ul class="list">
+    <li>First, food is good! We should enjoy it! It nourishes our body and tastes good! Now that doesn't mean
+      to go crazy and eat everything, but it does mean that you don't have to eat boring food.</li>
+    <li>Food helps you train! Yes, you <span class="emph">CAN</span> eat too little when trying to lose weight.
+      On the other hand, you can't out-train a poor diet. There is moderation here.</li>
+  </ul>
+
+  <p>Let's build a plan together to change the negative view on food so you can enjoy your favorite foods
+    while getting fitter and healthier!
+  </p>
+
+  <div class="credit">
+    &copy;2022 Website built by Daniel Montaño
+  </div>
+  
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+      }
+  }
+  </script>
+
+</body>

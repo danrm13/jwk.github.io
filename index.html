@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+<script src="jquery-3.6.0.min.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Philosopher&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="journeystyle.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <div class="home-logo"></div>
+
+  <!--Add dynamic menu transition with menu icon-->
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="fitness.html">Fitness</a>
+    <a href="nutrition.html">Nutrition</a>
+    <a href="links.html">Useful Links</a>
+    <a href="social.html">Social</a>
+    <a href="contact.html">Contact me!</a>
+    <a href="javascript:void();" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <h1>Hi! I'm Kaylin!</h1>
+
+  <div class="kaylin"></div>
+
+  <p>Welcome to my journey, I'm glad you're here! Join me and let's make it <span class="emph">OUR</span> journey!</p>
+  <p>Take a look around at how I can help you reach your goals. I'll be your transformational guide the whole way!</p>
+
+  <div class="credit">
+    &copy;2022 Website built by Daniel Montaño
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+      }
+  }
+  </script>
+
+</body>

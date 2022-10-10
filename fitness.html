@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+<script src="jquery-3.6.0.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="journeystyle.css">
+
+<link rel="stylesheet" type="text/css" href="logostyle.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <div class="header-img"></div>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="fitness.html">Fitness</a>
+    <a href="nutrition.html">Nutrition</a>
+    <a href="links.html">Useful Links</a>
+    <a href="social.html">Social</a>
+    <a href="contact.html">Contact me!</a>
+    <a href="javascript:void();" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <h1>Let's Get Fit!</h1>
+  <p>Improve your fitness and enjoy those long hikes or just do it for your health! 
+    No matter how much time you have, you have the time to dedicate to you and your health!
+  </p>
+
+  <h2>Do you...</h2>
+  <ul class="list">
+    <li>struggle with getting (and staying!) motivated to exercise?</li>
+    <li>lose some weight but just <span class="emph">CANNOT</span> get to your goal weight?</li>
+    <li>get frustrated because you have tried <span class="emph">EVERYTHING</span> but nothing
+      seems to work?</li>
+  </ul>
+
+  <p>If you answered "yes" to <span class="emph">ANY</span> of these questions,
+    <a href="contact.html">message me</a>! 
+    I've answered "yes" to <span class="emph">ALL</span> of those questions and want to help 
+    you get over those hurdles too! This is a journey, and I will guide you the whole way!
+  </p>
+
+  <div class="credit">
+    &copy;2022 Website built by Daniel Montaño
+  </div>
+  
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+      }
+  }
+  </script>
+
+</body>
